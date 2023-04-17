@@ -15,7 +15,7 @@
     height: 50px;
     display: flex;
     margin: 0 auto;
-    border-bottom: 1px solid #a0c8df;    
+    border-bottom: 1px solid rgb(128, 128, 128);    
 }
 
 .row-nav{
@@ -29,14 +29,12 @@
 }
 
 .col-type{
-    border: 1px dashed black;
     width: 20%;
     height: 100%;    
     display: inline-block;
 }
 
 .col-logo{
-    border: 1px dashed black;
     width: 60%;
     height: 100%;
     position: relative;
@@ -51,7 +49,6 @@
 }
 
 .col-login{
-    border: 1px dashed black;
     width: 20%;
     height: 100%;    
     display: inline-block;
@@ -72,7 +69,7 @@
 /*impostazioni prima sezione main*/
 
 .container-product-card{
-    background-color: #00008b;
+    background-color: #2d2db8;
     max-width: 1400px;
     display: flex;
     margin: 0 auto;
@@ -88,11 +85,16 @@
 }
 
 .col-card{
-    height: 430px;
+    height: 454px;
     width: calc(100% / 3 - 10px);
-    background-color: #ee82ee;
     border: 1px dashed black;    
     margin-top: 40px;
+    
+}
+
+.image{
+    width: 100%;
+    height: fit-content;
 }
 
 /*impostazioni nav del footer*/
@@ -144,7 +146,8 @@ a{
 }
 
 .item-nav-link{
-    margin-top: 5px;
-    font-weight: bold ;
-    font-size: 14px;
+    margin-top: 7px;
+    font-weight: bold;
+    font-size: 13px;
+    color: white;
 }
