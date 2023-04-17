@@ -50,3 +50,27 @@
     text-align: right;
 }
 
+/*impostazioni prima sezione main*/
+
+.container-product-card{
+    background-color: #00008b;
+    max-width: 70%;
+    display: flex;
+    margin: 0 auto;
+}
+
+.row-product-card{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.col-card{
+    height: 430px;
+    width: 300px;
+    background-color: #ee82ee;
+    border: 1px dashed black;    
+    margin-top: 50px;
+}
