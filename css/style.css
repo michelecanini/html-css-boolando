@@ -54,25 +54,26 @@
 
 .container-product-card{
     background-color: #00008b;
-    max-width: 70%;
+    max-width: 1400px;
     display: flex;
     margin: 0 auto;
 }
 
 .row-product-card{
-    width: 100%;
+    width: 70%;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin-bottom: 40px;
 }
 
 .col-card{
     height: 430px;
-    width: 300px;
+    width: calc(100% / 3 - 10px);
     background-color: #ee82ee;
     border: 1px dashed black;    
-    margin-top: 50px;
+    margin-top: 40px;
 }
 
 /*impostazioni nav del footer*/
@@ -83,6 +84,7 @@
     height: 100px;
     display: flex;
     margin: 0 auto;
+
 } 
 
 .row-nav-footer{
