@@ -6,4 +6,47 @@
     box-sizing: border-box;
 }
 
+/*impostazioni header e nav*/
+
+.container{
+    background-color: #ffad1e;
+    max-width: 1400px;
+    height: 50px;
+    display: flex;
+    margin: 0 auto;
+    border-bottom: 1px solid #a0c8df;    
+}
+
+.row-nav{
+    background-color: #55da20;
+    height: 30px;
+    width: 70%;
+    margin: auto;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.col-type{
+    border: 1px dashed black;
+    width: 20%;
+    height: 100%;    
+    display: inline-block;
+}
+
+.col-logo{
+    text-align: center;
+    border: 1px dashed black;
+    width: 60%;
+    height: 100%;    
+}
+
+.col-login{
+    border: 1px dashed black;
+    width: 20%;
+    height: 100%;    
+    display: inline-block;
+    text-align: right;
+}
 
