@@ -69,7 +69,6 @@
 /*impostazioni prima sezione main*/
 
 .container-product-card{
-    background-color: #2d2db8;
     max-width: 1400px;
     display: flex;
     margin: 0 auto;
@@ -85,11 +84,9 @@
 }
 
 .col-card{
-    height: 454px;
     width: calc(100% / 3 - 10px);
-    border: 1px dashed black;    
     margin-top: 40px;
-    
+    position: relative;
 }
 
 .image{
@@ -151,3 +148,22 @@ a{
     font-size: 13px;
     color: white;
 }
+
+/*impostazioni etichette*/
+
+.heart{
+    width: 35px;
+    height: 35px;
+    background-color: white;
+    position: absolute;
+    font-size: 25px;
+    right: 0;
+    top: 5px;
+    padding-left: 10px;
+    padding-top: 3px;
+}
+
+.heart:hover, .heart:active {
+    color: red;
+}
+
