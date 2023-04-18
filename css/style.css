@@ -87,6 +87,8 @@
     width: calc(100% / 3 - 10px);
     margin-top: 40px;
     position: relative;
+    height: 458px;
+    margin-bottom: 50px;
 }
 
 .image{
@@ -200,4 +202,48 @@ a{
     padding: 3px 7px;
     position: absolute;
     bottom: 30px;
+}
+
+.sustainability{
+    background-color: green;
+    width: fit-content;
+    font-weight: bold;
+    font-size: 9px;
+    color: white;
+    padding: 3px 7px;
+    position: absolute;
+    bottom: 30px;
+    left: 38px
+}
+
+.sustainability-z{
+    background-color: green;
+    width: fit-content;
+    font-weight: bold;
+    font-size: 9px;
+    color: white;
+    padding: 3px 7px;
+    position: absolute;
+    bottom: 30px;
+}
+
+/*impostazioni testi e prezzi*/
+
+.brand{
+    font-size: 11px;
+}
+
+.brand-type{
+    font-size: 13px;
+}
+
+.brand-pricing{
+    font-size: 11px;
+    color: red;
+    display: inline-block;
+}
+
+.pricing-discount{
+    font-size: 11px;
+    display: inline-block;
 }
