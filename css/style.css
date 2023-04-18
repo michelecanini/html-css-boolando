@@ -190,3 +190,14 @@ a{
 .image-six:hover, .image-six:active {
     content: url(../img/6b.webp);
 }
+
+.discount{
+    background-color: red;
+    width: fit-content;
+    font-weight: bold;
+    font-size: 9px;
+    color: white;
+    padding: 3px 7px;
+    position: absolute;
+    bottom: 30px;
+}
