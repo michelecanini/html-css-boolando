@@ -4,7 +4,6 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    
 }
 
 body{
@@ -175,7 +174,6 @@ a{
     font-size: 10px;
     color: white;
     margin-right: 5px;
-
 }
 
 /*impostazioni etichette ed hover*/
@@ -196,28 +194,60 @@ a{
     color: red;
 }
 
-.image-one:hover, .image-one:active {
-    content: url(../img/1b.webp);
+.image-one, .image-two, .image-three, .image-four, .image-five, .image-six {
+    display: block;
 }
 
-.image-two:hover, .image-two:active {
-    content: url(../img/2b.webp);
+.image-one-b, .image-two-b, .image-three-b, .image-four-b, .image-five-b, .image-six-b{
+    display: none;
 }
 
-.image-three:hover, .image-three:active {
-    content: url(../img/3b.webp);
+.image-content:hover .image-one{
+    display: none;
 }
 
-.image-four:hover, .image-four:active {
-    content: url(../img/4b.webp);
+.image-content:hover .image-one-b{
+    display: block;
 }
 
-.image-five:hover, .image-five:active {
-    content: url(../img/5b.webp);
+.image-content:hover .image-two{
+    display: none;
 }
 
-.image-six:hover, .image-six:active {
-    content: url(../img/6b.webp);
+.image-content:hover .image-two-b{
+    display: block;
+}
+
+.image-content:hover .image-three{
+    display: none;
+}
+
+.image-content:hover .image-three-b{
+    display: block;
+}
+
+.image-content:hover .image-four{
+    display: none;
+}
+
+.image-content:hover .image-four-b{
+    display: block;
+}
+
+.image-content:hover .image-five{
+    display: none;
+}
+
+.image-content:hover .image-five-b{
+    display: block;
+}
+
+.image-content:hover .image-six{
+    display: none;
+}
+
+.image-content:hover .image-six-b{
+    display: block;
 }
 
 .discount{
